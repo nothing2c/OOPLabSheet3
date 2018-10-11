@@ -19,6 +19,10 @@ public class House {
         this.owner = new Person(name,age,gender);
     }
 
+    public String toString(){
+        return "Adress: "+getAddress()+"\nType: "+getType()+"\nPrice: "+getPrice()+"\nOwner: "+owner.getName()+"\n";
+    }
+
     public void setAddress(String address) {
         this.address = address;
     }
