@@ -1,4 +1,4 @@
 public interface Transactable {
-    void lodge(double a);
-    void withdraw(double a);
+    void lodge(double amount);
+    void withdraw(double amount);
 }
